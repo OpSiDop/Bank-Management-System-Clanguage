@@ -146,3 +146,9 @@ void withdraw(struct customer list[], int s, int number, int amt)
         list[i].balance -= amt;
     }
 }
+//Made By:-
+//Aryan Raj
+//Sidhartha Raghaw
+//Sourav Mane
+//Avinash Yadav
+//Dhanushraja
