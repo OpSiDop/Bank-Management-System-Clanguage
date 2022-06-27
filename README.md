@@ -17,3 +17,9 @@ In this bank management system project in C, file handling has been used for alm
   <p>
  </div>
  <br>
+
+# Contributors-
+- [ ] [Aryan Raj](https://github.com/aryanraj2713)
+- [ ] [Sourav Mane](https://github.com/SouravMane333)
+- [ ] [Sidhartha Raghav](https://github.com/OpSiDop)
+- [ ] [Dhanush Raja](https://github.com/sn4149)
