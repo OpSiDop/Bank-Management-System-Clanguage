@@ -18,14 +18,14 @@ int main()
     struct customer data[20];
     int n, choice, account_no, amount, index;
 
-    printf("Banking System\n\n");
+    printf("\n\n        ******Banking System******\n\n");
     printf("Number of customer records you want to enter? : ");
     scanf("%d", &n);
     accept(data, n);
     do
     {
 
-        printf("\nBanking System Menu :\n");
+        printf("\n      ******Banking System Menu******\n\n");
         printf("Press 1 to display all records.\n");
         printf("Press 2 to search a record.\n");
         printf("Press 3 to deposit amount.\n");
@@ -66,6 +66,8 @@ int main()
                 printf("Enter amount to withdraw : ");
                 scanf("%d", &amount);
                 withdraw(data, n, account_no, amount);
+            case 0:
+                printf("\nThanks for using this Banking service\n");
         }
     }
     while (choice != 0);
@@ -80,7 +82,7 @@ void accept(struct customer list[80], int s)
     {
         printf("\nEnter data for Record #%d", i + 1);
 
-        printf("\nEnter account_no : ");
+        printf("\nEnter account no (10 digit only) : ");
         scanf("%d", &list[i].account_no);
         fflush(stdin);
         printf("Enter name : ");
@@ -93,10 +95,10 @@ void display(struct customer list[80], int s)
 {
     int i;
 
-    printf("\n\nA/c No\tName\tBalance\n");
+    printf("\n\nA/c No   \tName    \tBalance\n");
     for (i = 0; i < s; i++)
     {
-        printf("%d\t%s\t%d\n", list[i].account_no, list[i].name,
+        printf("%d\t%s \t          %d\n", list[i].account_no, list[i].name,
             list[i].balance);
     } 
 }
