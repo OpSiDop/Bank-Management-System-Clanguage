@@ -21,5 +21,7 @@ In this bank management system project in C, file handling has been used for alm
 # Contributors-
 - [ ] [Aryan Raj](https://github.com/aryanraj2713)
 - [ ] [Sourav Mane](https://github.com/SouravMane333)
-- [ ] [Sidhartha Raghav](https://github.com/OpSiDop)
+- [ ] [Sidhartha Raghaw](https://github.com/OpSiDop)
 - [ ] [Dhanush Raja](https://github.com/sn4149)
+# Pictures-
+![Screenshot (40)](https://user-images.githubusercontent.com/93781577/176097363-048df4e2-4a54-48df-814a-d122652cc9e7.png)
