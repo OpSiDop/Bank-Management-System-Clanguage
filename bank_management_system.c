@@ -26,11 +26,11 @@ int main()
     {
 
         printf("\n        ******Banking System Menu******\n\n");
-        printf("Press 1 to display all records.\n");
-        printf("Press 2 to search a record.\n");
-        printf("Press 3 to deposit amount.\n");
-        printf("Press 4 to withdraw amount.\n");
-        printf("Press 0 to exit\n");
+        printf("Press 1 to Display all records.\n");
+        printf("Press 2 to Search a record.\n");
+        printf("Press 3 to Deposit amount.\n");
+        printf("Press 4 to Withdraw amount.\n");
+        printf("Press 0 to Exit\n");
         printf("\nEnter choice(0-4) : ");
         scanf("%d", &choice);
         switch (choice)
